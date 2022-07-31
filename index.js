@@ -25,7 +25,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 (async () => {
 
     console.log(`
-By : ${chalk.blue('@Akun Terhapus')
+By : ${chalk.blue('@Akun Terhapus')`)
 
 Features :
 
