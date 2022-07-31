@@ -25,21 +25,26 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 (async () => {
 
     console.log(`
-By : ${chalk.blue('@Akun Terhapus')`)
+███████ ████████ ██    ██ ███    ███ ██████  ██      ███████         
+██         ██    ██    ██ ████  ████ ██   ██ ██      ██           
+███████    ██    ██    ██ ██ ████ ██ ██████  ██      █████          
+     ██    ██    ██    ██ ██  ██  ██ ██   ██ ██      ██            
+███████    ██     ██████  ██      ██ ██████  ███████ ███████    
 
+By : ${chalk.red('@autodingin')} - ${chalk.blue('https://github.com/atdungin')}
 Features :
 
-1. ${chalk.magenta('Reward : 1 Crown + 30 Trophy + 35 Star ( Stumble Pass ) + 3000 EXP')}
-2. ${chalk.magenta('Reward : 20 Trophy + 30 Star ( Stumble Pass ) + 1500 EXP')}
-3. ${chalk.magenta('Reward : 10 Trophy + 25 Star ( Stumble Pass ) + 500 EXP')}
-4. ${chalk.magenta('Reward : 20 Star ( Stumble Pass ) + 100 EXP')}
+1. ${chalk.magenta('Reward : 1 Crown + 30 Trophy')}
+2. ${chalk.magenta('Reward : 20 Trophy')}
+3. ${chalk.magenta('Reward : 10 Trophy')}
+4. ${chalk.magenta('Reward : 20 Star + 100 EXP')}
 `);
 
-    const feature = rs.question('[+] Enter feature needed : ');
+    const feature = rs.question('[+] Enter feature needed ( 1,2,3,4 ) : ');
 
     if (feature == '1') {
 
-        const auth = rs.question('[+] Enter your auth token : ');
+        const auth = rs.question('[+] Enter your authorization : ');
         const time = rs.question('[+] Enter Delay in milisecond ( Ex : 1000 = 1 sec ) : '); 
         console.log('');
 
